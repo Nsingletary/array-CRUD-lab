@@ -1,5 +1,5 @@
-def create_an_empty_array
-  
+def array.unshift(element)
+    return array  
 end
 
 def create_an_array
@@ -32,4 +32,8 @@ end
 
 def retrieve_last_element_from_array(array)
   
+end
+
+def retrieve_last_element_from_array(array)
+    return array[array.count - 1]
 end
